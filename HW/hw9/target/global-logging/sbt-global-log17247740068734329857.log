@@ -1,0 +1,88 @@
+[debug] > Exec(early(addDefaultCommands), None, None)
+[debug] > Exec(addDefaultCommands, None, None)
+[debug] > Exec(early(initialize), None, None)
+[debug] > Exec(initialize, None, None)
+[debug] > Exec(boot, None, None)
+[debug] > Exec(writeSbtVersion, None, None)
+[debug] > Exec(reload, None, None)
+[debug] > Exec(sbtStashOnFailure, None, None)
+[debug] > Exec(onFailure loadFailed, None, None)
+[debug] > Exec(loadp, None, None)
+[info] welcome to sbt 1.9.8 (Oracle Corporation Java 19)
+[debug] Load.defaultLoad until apply took 147.2078ms
+[debug]           Load.loadUnit: plugins took 86.563ms
+[debug]           Load.loadUnit: defsScala took 0.4517ms
+[debug] [Loading] Scanning directory C:\Users\theepob\Desktop\Desktop\ProgLang\hw9\project
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in C:\Users\theepob\Desktop\Desktop\ProgLang\hw9\project, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 27.4461 ms
+[debug]               Load.resolveProject(hw9-build) took 56.5831ms
+[debug]             Load.loadTransitive: finalizeProject(Project(id hw9-build, base: C:\Users\theepob\Desktop\Desktop\ProgLang\hw9\project, plugins: List(<none>))) took 106.0828ms
+[debug] [Loading] Done in C:\Users\theepob\Desktop\Desktop\ProgLang\hw9\project, returning: (hw9-build)
+[debug]           Load.loadUnit: loadedProjectsRaw took 139.4506ms
+[debug]           Load.loadUnit: cleanEvalClasses took 0.3565ms
+[debug]         Load.loadUnit(file:/C:/Users/theepob/Desktop/Desktop/ProgLang/hw9/project/, ...) took 296.3159ms
+[debug]       Load.apply: load took 548.4844ms
+[debug]       Load.apply: resolveProjects took 5.5758ms
+[debug]       Load.apply: finalTransforms took 70.1288ms
+[debug]       Load.apply: config.delegates took 10.6141ms
+[debug]       Load.apply: Def.make(settings)... took 499.4156ms
+[debug]       Load.apply: structureIndex took 95.7863ms
+[debug]       Load.apply: mkStreams took 1.526ms
+[info] loading project definition from C:\Users\theepob\Desktop\Desktop\ProgLang\hw9\project
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug]     Load.loadUnit: plugins took 2977.8499ms
+[debug]     Load.loadUnit: defsScala took 0.0023ms
+[debug] [Loading] Scanning directory C:\Users\theepob\Desktop\Desktop\ProgLang\hw9
+[debug]       Load.loadUnit: mkEval took 3.5173ms
+[debug] [Loading] Found root project root w/ remaining 
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 2.0391 ms
+[info] loading settings for project root from build.sbt ...
+[debug]         Load.resolveProject(root) took 2.7352ms
+[debug]       Load.loadTransitive: finalizeProject(Project(id root, base: C:\Users\theepob\Desktop\Desktop\ProgLang\hw9, plugins: List(<none>))) took 6.1404ms
+[debug] [Loading] Done in C:\Users\theepob\Desktop\Desktop\ProgLang\hw9, returning: (root)
+[debug]     Load.loadUnit: loadedProjectsRaw took 2438.8355ms
+[debug]     Load.loadUnit: cleanEvalClasses took 9.1503ms
+[debug]   Load.loadUnit(file:/C:/Users/theepob/Desktop/Desktop/ProgLang/hw9/, ...) took 5428.7036ms
+[debug] Load.apply: load took 5481.9319ms
+[debug] Load.apply: resolveProjects took 0.1147ms
+[debug] Load.apply: finalTransforms took 13.779ms
+[debug] Load.apply: config.delegates took 0.4106ms
+[debug] Load.apply: Def.make(settings)... took 102.6349ms
+[debug] Load.apply: structureIndex took 28.6635ms
+[debug] Load.apply: mkStreams took 0.0024ms
+[info] set current project to hw9 (in build file:/C:/Users/theepob/Desktop/Desktop/ProgLang/hw9/)
+[debug] > Exec(sbtPopOnFailure, None, None)
+[debug] > Exec(resumeFromFailure, None, None)
+[debug] > Exec(notifyUsersAboutShell, None, None)
+[debug] > Exec(iflast shell, None, None)
+[debug] > Exec(shell, None, None)
+[info] sbt server started at local:sbt-server-6105a16ce3391b37a74c
+[debug] Writing bsp connection file
+[warn] sbt server could not start in 10s
